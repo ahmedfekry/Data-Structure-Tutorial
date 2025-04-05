@@ -1,0 +1,46 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore auto-generated files
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.AssemblyInfoInputs.cache
+*.CoreCompileInputs.cache
+*.genruntimeconfig.cache
+*.AssemblyInfo.cs
+*.FileListAbsolute.txt
+*.GlobalUsings.g.cs
+*.nuget.g.props
+*.nuget.g.targets
+
+# Ignore runtime files
+*.runtimeconfig.json
+*.deps.json
+*.pdb
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+project.nuget.cache
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+~$*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
