@@ -65,4 +65,8 @@ Hash table is array with a hash function.
 **Problems**
 
  1. [Custom HashSet LeetCode](https://leetcode.com/explore/learn/card/hash-table/182/practical-applications/1139/)
- 
+ 2. [Design HashMap LeetCode](https://leetcode.com/explore/learn/card/hash-table/182/practical-applications/1140/)
+ 3. [Contains Duplicate](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1112/)
+ 4. [Single Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1176/)
+ 5. [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1105/)
+ 6. [Happy Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1131/)
