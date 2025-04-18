@@ -70,3 +70,4 @@ Hash table is array with a hash function.
  4. [Single Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1176/)
  5. [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1105/)
  6. [Happy Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1131/)
+ 7. [2 SUM](https://leetcode.com/problems/two-sum/description/)

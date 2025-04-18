@@ -18,8 +18,16 @@ class Program
         // int param_2 = obj.Get(1000);
         // obj.Remove(key);
 
-        HappyNumber happyNumber = new HappyNumber();
+        // HappyNumber happyNumber = new HappyNumber();
 
-        Console.Write(happyNumber.IsHappy(2));
+        // Console.Write(happyNumber.IsHappy(2));
+
+        TwoSum twoSum = new TwoSum();
+
+        var result = twoSum.FindTwoSum([3,3],6);
+
+        foreach(var t in result){
+            Console.WriteLine(t);
+        }
     }
 }
