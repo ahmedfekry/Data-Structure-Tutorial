@@ -71,3 +71,68 @@ Hash table is array with a hash function.
  5. [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1105/)
  6. [Happy Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1131/)
  7. [2 SUM](https://leetcode.com/problems/two-sum/description/)
+
+ 
+## Linked List
+
+- Linked List is similar to arrays but every object in a Linked List is separate.
+- It is linked to another object by a reference field that points to that another object.
+
+```
+[5] -> [3] -> [2] -> [1] -> ⊗
+```
+
+- This is a single Linked List.
+- The first Node is called the **head node**, and it represents the whole list.
+
+## Code Example
+
+```csharp
+public class SingleListNode {
+    int val;
+    SingleListNode(int x) {
+        val = x;
+    }
+}
+```
+
+- You can't access a random element in a single linked list in constant time.  
+  If we want to get to the `i-th` element, we have to traverse from the head node one by one.
+
+- Linked List has bad performance in accessing elements compared to arrays.
+
+---
+
+## Adding After Specific Node to Linked List
+
+1. Initialize new node `cur` with the given value.
+2. Link the `next` field of the `cur` to that specific's `next` node.
+3. Link the `next` field of the `prev` to `cur`.
+
+### To add a node to the beginning of the list:
+- Just point the `next` of the new node to the current head.
+
+---
+
+## Delete Operation
+
+1. Find the node you want to delete.
+2. Keep the previous node.
+3. Just point `previous.next` to the desired node's `next`.
+
+
+**Sources**
+
+1-  [LeetCode](https://leetcode.com/explore/learn/card/linked-list/)
+
+
+**Problems**
+
+1. [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/)
+2. [Linked List Cycle](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/)
+3. [Linked List Cycle ||](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/)
+
+tree videos
+
+1- https://www.youtube.com/watch?v=oSWTXtMglKE
+2- 
